@@ -142,6 +142,11 @@ plugins:
       {raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate'}
     ]
 
+plugins:
+    ghpages:
+        deployRemote: 'target'
+        deployBranch: 'master'
+
 
 }
 
