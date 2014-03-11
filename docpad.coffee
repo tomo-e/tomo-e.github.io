@@ -141,8 +141,8 @@ docpadConfig = {
     	]
 
 		ghpages:
-        deployRemote: 'target'
-        deployBranch: 'master'
+        deployRemote: 'master'
+        deployBranch: 'develop'
 	}
 
 # Export our DocPad Configuration
