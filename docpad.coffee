@@ -12,12 +12,11 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://tomo-e.github.io"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.tomo-e.github.io'
 			]
 
 			# The default title of our website
@@ -32,7 +31,6 @@ docpadConfig = {
 			keywords: """
 				frond-end, Illustrator, blog
 				"""
-
 
 		# -----------------------------
 		# Helper Functions
@@ -135,20 +133,17 @@ docpadConfig = {
 			# Chain
 			@
 
-plugins:
-  moment:
-    formats: [
-      {raw: 'date', format: 'MMMM Do YYYY', formatted: 'humanDate'}
-      {raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate'}
-    ]
+	plugins:
+		moment:
+  	  formats: [
+    	  {raw: 'date', format: 'MMMM Do YYYY', formatted: 'humanDate'}
+      	{raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate'}
+    	]
 
-plugins:
-    ghpages:
+		ghpages:
         deployRemote: 'target'
         deployBranch: 'master'
-
-
-}
+	}
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
